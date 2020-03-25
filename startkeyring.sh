@@ -10,3 +10,4 @@ else
     echo "Starting ssh-agent"
     eval `ssh-agent | tee ~/.ssh/agent.env`
     ssh-add
+fi
